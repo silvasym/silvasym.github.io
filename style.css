@@ -1,3 +1,4 @@
+/* The banner class is used to create banners at the top and bottom of the screen. */
 .banner {
 	position: sticky;
 	left: 0;
@@ -9,28 +10,36 @@
 	color: white;
 }
 
+/* The top-banner id is used only to create the banner at the top of the screen.
+	This id allows for the banner to display itself at the top of the screen */
 #top-banner {
 	top: 0;
 }
 
+/* The bottom-banner id is used only to create the banner at the bottom of the screen.
+	This id allows for the banner to display itself at the bottom of the screen. */
 #bottom-banner {
 	bottom: 0;
 }
 
+/* This selector makes it so that everytime the p tag is used, the text will be single-spaced. */
 p {
 	margin: 0;
 }
 
+/* The border class creates a solid border of size 3px and color #75787b (hokie stone color). */
 .border {
 	border: 3px solid #75787b;
 }
 
+/* The my-name id is used to display my name in large font. */
 #my-name {
 	font-family: Verdana;
 	font-size: 35px;
 }
 
-img {
+/* The my-pic id is used to display my picture surrounded by a border. */
+#my-pic {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -41,6 +50,7 @@ img {
 	border-bottom: none;
 }
 
+/* The resume-body id is used to create a background of color #861F41 (hokie maroon). */
 #resume-body {
 	background-color: #861F41;
 	border-top: none;
@@ -48,6 +58,7 @@ img {
 	color: white;
 }
 
+/* The resume-section class is used to divide the sections of the resume body. */
 .resume-section {
 	left: 0;
 	border-left: none;
@@ -55,6 +66,8 @@ img {
 	border-bottom: none;
 }
 
+/* The section-header class is used to make the headers for each section of the resume
+	stand out. */
 .section-header {
 	margin-left: 1%;
 	font-family: Verdana;
@@ -62,12 +75,14 @@ img {
 	color: #E87722;
 }
 
+/* The section-contents class is used to style the contents of each section of the resume. */
 .section-contents {
 	margin-left: 15%;
 	font-family: Arial;
 	font-size: 17px;
 }
 
+/* This selector makes it so that everytime the ul tag is used, the text will be single-spaced. */
 ul {
 	margin: 0;
 }
